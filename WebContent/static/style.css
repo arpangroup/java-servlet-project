@@ -1,0 +1,69 @@
+
+body, form{
+  text-align: center;
+  background-color: #F6F6F6;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.title {
+  font-size: 1.8em;
+}
+form {
+  display: inline-block;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  border: 2px solid #e1e1e1;
+  padding: 30px;
+  width: 400px;
+  background-color: white;
+  margin-top: -6px;
+}
+.container label, .container input, .container select{
+  display: block;
+  padding: 8px;
+  width: 95%;
+  text-align: left;
+}
+.btn {
+  margin-top: 16px;
+  padding: 6px 24px 6px 24px;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-align: center!important;
+}
+.alert {
+  background-color: #f44336;
+  color: white;
+  padding: 4px!important;
+  font-size: 0.6em;
+  margin-bottom: 8px;
+}
+.error_container {
+  display: flex;
+  justify-content: center;
+  width:60%;
+  align-items: center;
+  height: 70vh;
+  border: 0px solid green; 
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+ table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+ }
+ table {
+ 	margin-top: 16px;
+ 	margin-left: 5%
+ }
+  th, td {
+   padding: 6px 16px 6px 16px;
+ }
+ 
+ #training_action{
+ 	font-size: 1.2em!important;
+ 	margin-left: 5%;
+ 	text-align: left!important;
+ }
